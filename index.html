@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Discovery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Movie Discovery</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Discover Your Next Favorite Movie</h1>
+                <p>Explore a wide range of movies and find what you love!</p>
+            </div>
+        </section>
+
+        <section id="search" class="search-section">
+            <form id="form">
+                <input type="text" id="search" placeholder="Search for a movie...">
+                <button type="submit">Search</button>
+            </form>
+            <div id="suggestions" class="suggestions-container"></div>
+        </section>
+
+        <section id="main">
+            <!-- Movies will be displayed here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Movie Discovery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
